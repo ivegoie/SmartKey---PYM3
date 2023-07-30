@@ -1,0 +1,14 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "smartkey.db",
+            "database": "${workspaceFolder:SmartKey}/smartkey.db"
+        }
+    ]
+}
